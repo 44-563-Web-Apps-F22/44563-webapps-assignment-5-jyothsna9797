@@ -17,6 +17,23 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="insects.html"> Interesting Insects </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="basic.html">Basic</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="basic.html">Advanced</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
     <h1>Insects by Jyothsna Pamarthi</h1>
     <div class="container">
         <div class="row">
@@ -128,9 +145,39 @@
     </div>
 
     <br>
-    <div class="container">
-        
+
+    <div class="dropdown show">
+        <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown">
+            Dropdown Menu
+          </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="basic.html">Basic Bootsrap Page</a></li>
+            <li><a class="dropdown-item" href="advanced.html">Advanced Boostrap page</a></li>  
+        </div>
     </div>
+
+    <br>
+
+    <div class="container align-left">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="form-group">
+                <label for="InsectInput" class="form-label">Insect</label>
+                <input type="text" placeholder="Enter Your Insect" class="form-control" id="InsectInput">
+            </div>
+            <div class="form-check">
+                <label class="form-check-label" for="checkIfInsect">Sign up for newsletter?</label>
+                <input type="checkbox" class="form-check-input" id="checkIfInsect">
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>   
+        </form>
+    </div>
+
+
 
 </body>
 
