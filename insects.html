@@ -1,41 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Working with Bootstrap</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"   
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" 
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <title>Working with Bootstrap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
 </head>
+
 <body>
     <h1>Insects by Jyothsna Pamarthi</h1>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-2">P</div>
-                <div class="col-sm-2">A</div>
-                <div class="col-sm-2">M</div>
-                <div class="col-sm-2">A</div>
-                <div class="col-sm-2">R</div>
-                <div class="col-sm-2">T</div>
-            </div>
-            <div class="row">
-                <div class="col-md">Planthoppers</div>
-                <div class="col-md">Ants</div>
-                <div class="col-md">Mosquitoes</div>
-                <div class="col-md">Antlions</div>
-                <div class="col-md">Ring worm</div>
-                <div class="col-md">Termites</div>
-            </div>
-            
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2">P</div>
+            <div class="col-sm-2">A</div>
+            <div class="col-sm-2">M</div>
+            <div class="col-sm-2">A</div>
+            <div class="col-sm-2">R</div>
+            <div class="col-sm-2">T</div>
         </div>
-        <p>when we observe the page by reducing the screen size, the row having insects names are getting break down first as the size  that we have specified for them is large. And then the letters row is breaking.</p>
-        
-   
+        <div class="row">
+            <div class="col-md">Planthoppers</div>
+            <div class="col-md">Ants</div>
+            <div class="col-md">Mosquitoes</div>
+            <div class="col-md">Antlions</div>
+            <div class="col-md">Ring worm</div>
+            <div class="col-md">Termites</div>
+        </div>
 
+    </div>
+    <p>when we observe the page by reducing the screen size, the row having insects names are getting break down first
+        as the size that we have specified for them is large. And then the letters row is breaking.</p>
+
+    <div class="container">
+        <img class="img-fluid"
+            src="https://bugguide.net/images/cache/2QD/08Q/2QD08QT0WQWKXKAKRKBKGKBKGKDKIKJ01QVKVQZSPQC02QB0ZKEK2QWKRKD00KDKWQJ0WQOK5KY0BQCKSKA0UQA0GQB0.jpg"
+            alt="planthoppers" width="400px" height="400px">
+        <img class="img-fluid" src="https://www.mgk.com/wp-content/uploads/2020/08/CarpenterAnt.jpg"
+            alt="image of an Ant" width="400px" height="400px">
+        <img class="img-fluid"
+            src="https://i.guim.co.uk/img/media/e3d7e1113a993ed70cdf518ca087c195e041c95a/0_490_5203_3122/master/5203.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=b0c359d68b0d3aa23264c40665ec1da3"
+            alt="Mosquito image" width="400px" height="400px">
+    </div>
+
+    <div class="container">
+        <img class="img-thumbnail" src="antlion_image.png" alt="Ant lion image" width="400px" height="400px">
+        <img class="img-thumbnail" src="ringworm_image.png" alt="Ring worm" width="400px" height="400px">
+        <img class="img-thumbnail" src="termites_image.png" alt="Termities image" width="400px" height="400px">
+    </div>
+
+    <br>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table table-stripped table-hover align-middle">
+            <caption Style="text-align: center;">Table is all about Insects, cities, Letters and the Rivers</caption>
+            <thead class="table-active">
+                <tr class="table-primary">
+                    <th scope="col">Letter</th>
+                    <th scope="col">Insect</th>
+                    <th scope="col">City</th>
+                    <th scope="col">River</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-stripped">
+                    <td class="table-dark">P</td>
+                    <td class="table-success">planthoppers</td>
+                    <td class="table-warning">panama</td>
+                    <td class="table-info">Pecos River</td>
+                </tr>
+                <tr class="table-warning">
+                    <td class="table-success">A</td>
+                    <td class="table-dark">Ants</td>
+                    <td class="table-warning">Arkansas</td>
+                    <td class="table-danger">Aberjona River</td>
+                </tr>
+                <tr class="table-success">
+                    <td class="table-info">M</td>
+                    <td class="table-warning">Mosquito</td>
+                    <td class="table-dark">Miami</td>
+                    <td class="table-success">Mackinaw River</td>
+                </tr>
+                <tr class="table-danger">
+                    <td class="table-success">A</td>
+                    <td class="table-info">Antlions</td>
+                    <td class="table-warning">Atlanta</td>
+                    <td class="table-dark">Amite River</td>
+                </tr>
+                <tr class="table-light">
+                    <td class="table-danger">R</td>
+                    <td class="table-success">Ringworm</td>
+                    <td class="table-dark">Rochester</td>
+                    <td class="table-warning">Raft River</td>
+                </tr>
+                <tr class="table-secondary">
+                    <td class="table-warning">T</td>
+                    <td class="table-dark">Termites</td>
+                    <td class="table-success">Tempe</td>
+                    <td class="table-secondary">Tallahatchie River </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+    <div class="containers">
+        <div class="btn-group" role="group" aria-label="Insects For First Letters (success)">
+            <button class="btn btn-success" type="button">P</button>
+            <button class="btn btn-success" type="button">A</button>
+            <button class="btn btn-success" type="button">M</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Second pair of Insect letters (Warning)">
+            <button class="btn btn-warning" type="button">A</button>
+            <button class="btn btn-warning" type="button">R</button>
+        </div>
+        <div class="btn-group" role="group" aria-label="Last Insect Letter (Danger)">
+            <button class="btn btn-danger" type="button">T</button>
+        </div>
+    </div>
+
+    <br>
+    <div class="container">
+        
+    </div>
 
 </body>
+
 </html>
